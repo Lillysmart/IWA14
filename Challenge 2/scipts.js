@@ -9,8 +9,8 @@ console.log(multiply(2, 6));
 console.log(add(5, 4));
 
 function internal(a, c) {
-  const added = add(1, 2);
-  const multiplied = multiply( 2, 1);
+  const added = add(2, 8);
+  const multiplied = multiply( 2,8);
   return [added, multiplied];
 }
 
@@ -26,6 +26,7 @@ const example1 = {
   multiply,
   calculate: internal,
 };
+console.log (example1.calculate ())
 
 const example2 = {
   internal: {
