@@ -10,8 +10,8 @@ console.log(add(5, 4));
 
 function internal(a, c) {
   const added = add(1, 2);
-  const multiplied = multiply(this, 2, 1);
-  return [multiplied];
+  const multiplied = multiply( 2, 1);
+  return [added, multiplied];
 }
 
 // Not allowed to change below this
