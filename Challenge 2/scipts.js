@@ -1,17 +1,21 @@
-function add(a, b) {
-  return a + b;
-}
+function add(b, c) {
+  return (b + c)  }
 
-function multiply(a, b) {
-  return a * b;
+function multiply(b, c) {
+  return b * c;
 }
-console.log(multiply(2, 6));
-console.log(add(5, 4));
-
-function internal(a, c) {
-  const added = add(2, 8);
-  const multiplied = multiply( 2,8);
-  return [added, multiplied];
+/**
+ * this function calls the add() function and it substitute 
+ * the value of (b+c) from the object {example 1 & example 2} 
+ * it also calls the multiply() function and substitute the values 
+ * (b * c) from the object {example 1 &Example 2}
+ * @returns {number} 
+ */
+function internal( ) {
+  const added = add (this.internal.c,  this.internal.c);
+  const multiplied = multiply(this.internal.c , this.internal.b);
+  return [added+ multiplied]
+  ;
 }
 
 // Not allowed to change below this
@@ -26,7 +30,7 @@ const example1 = {
   multiply,
   calculate: internal,
 };
-console.log (example1.calculate ())
+
 
 const example2 = {
   internal: {
@@ -39,5 +43,5 @@ const example2 = {
   calculate: internal,
 };
 
-example1.calculate();
-example2.calculate();
+console.log (example1.calculate())
+console.log (example2.calculate())
