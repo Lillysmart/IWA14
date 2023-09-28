@@ -9,7 +9,7 @@
 ```
  function internal( ) {code}
 
-const example1 = {
+ const example1 = {
   ...
   calculate: internal, // `calculate` is a method function
 }
