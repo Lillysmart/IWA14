@@ -12,4 +12,4 @@
 const example1 = {
   ...
   calculate: internal, // `calculate` is a method function
-};```
+}
