@@ -14,5 +14,5 @@
   calculate: internal, // `calculate` is a method function
 }
 
-##And how does this relate to your object 🤔?
+## And how does this relate to your object 🤔?
  These functions are being called in the object 
