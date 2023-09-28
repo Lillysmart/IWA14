@@ -1,17 +1,17 @@
 //@ts-check
 /**
- * this function is a sum of 2 values
- * @param {number} b -the first value of operation
- * @param {number} c -the second value of operation
- * @returns {number} -result
+ * This function performs addition of two numbers.
+ * @param {number} b  -The first number.
+ * @param {number} c -the second number
+ * @returns {number} -The result of the addition
  */
 function add(b, c) {
   return (b + c)  }
 /**
- * This function multiply two given values
- * @param {number} b -the first value
- * @param {number} c -the second value of operation
- * @returns {number}-this is the result
+ *his function performs multiplication of two numbers.
+ * @param {number} b -the first number
+ * @param {number} c -the second number
+ * @returns {number}-this is the result of the multiplication.
  */
 function multiply(b, c) {
   return b * c;
