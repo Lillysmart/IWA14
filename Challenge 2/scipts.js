@@ -8,7 +8,7 @@
 function add(b, c) {
   return (b + c)  }
 /**
- *his function performs multiplication of two numbers.
+ *this function performs multiplication of two numbers.
  * @param {number} b -the first number
  * @param {number} c -the second number
  * @returns {number}-this is the result of the multiplication.
