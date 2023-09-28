@@ -1,3 +1,10 @@
+//@ts-check
+/**
+ * this function is a sum of 2 values
+ * @param {number} b the first value of operation
+ * @param {number} c the second value of operation
+ * @returns {number}
+ */
 function add(b, c) {
   return (b + c)  }
 
@@ -9,7 +16,7 @@ function multiply(b, c) {
  * the value of (b+c) from the object {example 1 & example 2} 
  * it also calls the multiply() function and substitute the values 
  * (b * c) from the object {example 1 &Example 2}
- * @returns {number} 
+ * @returns {any} 
  */
 function internal( ) {
   const added = add (this.internal.c,  this.internal.c);
