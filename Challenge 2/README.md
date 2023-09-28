@@ -3,14 +3,8 @@
 ## 🤔What types of functions are used here ?
 
 -Regular functions ,that take parameters and return values based on their logic ```function add(b, c) {
-  return (b + c)  }```
+  return (b + c)  }```.
 -Method Functions, that are assigned as properties of objects ```const example1 = {
   // ...
   calculate: internal, // `calculate` is a method function
-};
-
-const example2 = {
-  // ...
-  calculate: internal, // `calculate` is a method function
-};
-```
+};```
