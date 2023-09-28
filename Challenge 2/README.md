@@ -1,12 +1,10 @@
 
 
-<!--omit in toc-->
-# 1. Testing knowledge of functions and objects
+# 1. Testing knowledge of functions and objects <!-- omit in toc -->
 
-- [1. Testing knowledge of functions and objects](#1-testing-knowledge-of-functions-and-objects)
-  - [1.1. Features:🌐](#11-features)
-  - [1.2. What types of functions are used here 🤔?](#12-what-types-of-functions-are-used-here-)
-  - [1.3. And how does this relate to your object 🤔?](#13-and-how-does-this-relate-to-your-object-)
+- [1.1. Features:🌐](#11-features)
+- [1.2. What types of functions are used here 🤔?](#12-what-types-of-functions-are-used-here-)
+- [1.3. And how does this relate to your object 🤔?](#13-and-how-does-this-relate-to-your-object-)
 
 ## 1.1. Features:🌐
  This code was created after learning about objects and the different types of functions.
