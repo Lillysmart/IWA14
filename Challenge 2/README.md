@@ -1,6 +1,6 @@
 # Testing knowledge of functions and objects
 
-## 🤔What types of functions are used here ?
+## What types of functions are used here 🤔?
 
 ▶Regular functions ,that take parameters and return values based on their logic ```function add(b, c) {
   return (b + c)  }```.
@@ -13,3 +13,6 @@
   ...
   calculate: internal, // `calculate` is a method function
 }
+
+##And how does this relate to your object 🤔?
+ These functions are being called in the object 
