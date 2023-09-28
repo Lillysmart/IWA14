@@ -21,12 +21,12 @@ function multiply(b, c) {
  * the value of (b+c) from the object {example 1 & example 2} 
  * it also calls the multiply() function and substitute the values 
  * (b * c) from the object {example 1 &Example 2}
- * @returns {any} 
+ * @returns {number} -The sum of the results of the calculations
  */
 function internal( ) {
   const added = add (this.internal.c,  this.internal.c);
   const multiplied = multiply(this.internal.c , this.internal.b);
-  return [added+ multiplied]
+  return added+ multiplied
   ;
 }
 
